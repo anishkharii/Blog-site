@@ -71,7 +71,11 @@ app.get("/contact", (req, res)=> {
         ContactContent: contactContent
     });
 });
+app.get("/policy",(req,res)=>{
 
+    res.render("policy");
+
+});
 app.get("/compose", (req, res)=> {
     
 
